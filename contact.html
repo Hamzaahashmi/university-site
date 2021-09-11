@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="style.css">
+
+<!-- link for the fav icon -->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <title>University Website</title>
+</head>
+<body>
+<section class="sub-header">
+  <nav>
+  <a href="index.html"><img src="images/logo.png" alt=""></a>
+  <div class="nav-links" id="navLinks">
+    <i class="fas fa-times" id="fas" onclick="hideMenu()"></i>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="course.html">COURSE</a></li>
+      <li><a href="blog.html">BLOG</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+</div>
+<i class="fas fa-bars" id="fas" onclick="showMenu()"></i>
+  </nav>
+
+<h1>Contact Us</h1>
+</section>
+
+
+<!-- contact us content -->
+
+<section class="location">
+
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217897.55247239102!2d72.94921310017746!3d31.4237883029218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392242a895a55ca9%3A0xdec58f88932671c6!2sFaisalabad%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1631294224228!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+</section>
+
+<section class="contact-us">
+<div class="row">
+
+  <div class="contact-col">
+    <div class="">
+      <i class="fa fa-home"></i>
+      <span>
+        <h5>XYZ Road, ABC Building</h5>
+        <p>Faisalabad, pakistan, IN</p>
+      </span>
+    </div>
+
+    <div class="">
+      <i class="fa fa-phone"></i>
+      <span>
+        <h5>+42 6235667361</h5>
+        <p>Monday to Friday, 10AM to 6PM </p>
+      </span>
+    </div>
+
+    <div class="">
+      <i class="far fa-envelope fa"></i>
+      <span>
+        <h5>info@gcuf.com</h5>
+        <p>Email us your qurey</p>
+      </span>
+    </div>
+
+</div>
+
+  <div class="contact-col">
+
+  <form class="" action="index.html" method="post">
+<input type="text" name="" value="" placeholder="Enter your name" required>
+<input type="email"  name="" value="" placeholder="Enter your email" required>
+<input type="text" name="" value="" placeholder="Enter your subject" required>
+<textarea rows="8"  placeholder="Enter your message" required></textarea>
+<button type="submit" name="button" class="hero-btn red-btn">Sent Message</button>
+  </form>
+
+
+
+
+</div>
+
+
+</div>
+</section>
+
+<!-- footer -->
+
+<section class="footer">
+<h4>About Us</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+<div class="icons">
+  <i class="fab fa-facebook"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-linkedin"></i>
+</div>
+<p><i class="fas fa-copyright" class="fas"></i>Hamza Hashmi </p>
+</section>
+
+
+
+<!-- -----javascript for toggle Menu---- -->
+
+<script>
+
+  var navLinks = document.getElementById("navLinks");
+  function showMenu() {
+    navLinks.style.right ="0";
+    }
+    function hideMenu() {
+      navLinks.style.right= "-200px";
+      }
+
+</script>
+
+
+
+</body>
+</html>
